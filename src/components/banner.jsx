@@ -33,7 +33,7 @@ export default function Banner() {
           Hallo, saya Chairul, saya seorang mahasiswa Teknologi informasi yang
           sedang menempuh pendidikan di Universitas Mikroskil. Saya memiliki
           minat dalam bidang teknologi dan pengembangan web. Dan ini adalah
-          website porfolio saya
+          website porfolio saya. Mari berdiskusi bersama
         </div>
       </div>
     </div>
