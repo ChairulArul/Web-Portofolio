@@ -34,7 +34,6 @@ export default function Profile() {
             Berikut ini tools dasar yang pernah saya pelajari
           </h2>
         </div>
-
         <div className="flex flex-col lg:flex-row items-start justify-between">
           <div
             className="text-center w-full max-w-[400px] mx-auto mb-[50px]"
@@ -42,14 +41,18 @@ export default function Profile() {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <div className="min-w-[300px] min-h-[300px] bg-gradient pt-[50px] rounded-full overflow-hidden">
-              <img src="/images/profile.png" alt="Profile" />
+            <div className="min-w-[300px] min-h-[50px] bg-gradient pt-[0px] rounded-full overflow-hidden">
+              <img
+                src="/images/gojo (1).jpg"
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
+
             <h2 className="text-gradient text-[50px] mt-[20px]">
               {profileName}
             </h2>
           </div>
-
           <div>
             <div
               className="w-full lg:pt-[50px] lg:ml-[50px]"
