@@ -6,8 +6,8 @@ export default function Header({
   description = "Web-Portofolio",
 }) {
   // Menggunakan state untuk nama dan deskripsi
-  const [headerName, setHeaderName] = useState(name)
-  const [headerDescription, setHeaderDescription] = useState(description)
+  const [headerName] = useState(name)
+  const [headerDescription] = useState(description)
 
   return (
     <div className="container mx-auto max-w-[1200px] px-16 relative lg:absolute left-0 right-0">

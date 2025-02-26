@@ -1,22 +1,27 @@
 import React, { useState } from "react"
 
 export default function Profile() {
-  const [profileName, setProfileName] = useState("Chairul")
+  const [profileName] = useState("Chairul")
   const skills = [
     {
-      image: "/images/2.png",
-      title: "Bootstrap",
-      description: "Saya pernah pakai Bootstrap",
+      image: "/images/4.png",
+      title: "HTML5",
+      description: "markup language",
     },
     {
       image: "/images/3.png",
       title: "CSS Vanilla",
-      description: "Saya pernah pakai CSS Vanilla",
+      description: "Vanilla css",
     },
     {
-      image: "/images/4.png",
-      title: "HTML",
-      description: "Saya pernah pakai HTML",
+      image: "/images/2.png",
+      title: "Bootstrap",
+      description: "CSS framework ",
+    },
+    {
+      image: "/images/5.png",
+      title: "React",
+      description: "javascript framework",
     },
   ]
 
@@ -31,7 +36,7 @@ export default function Profile() {
         >
           <h4 className="text-secondary mb-3">Awesome Skill</h4>
           <h2 className="text-gradient font-primary max-w-[700px] mx-auto text-[24px]">
-            Berikut ini tools dasar yang pernah saya pelajari
+            Tools that I have learned
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row items-start justify-between">
@@ -41,9 +46,9 @@ export default function Profile() {
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            <div className="min-w-[300px] min-h-[50px] bg-gradient pt-[0px] rounded-full overflow-hidden">
+            <div className="w-[250px] aspect-[4/4] bg-gradient rounded-full overflow-hidden mx-auto object-bottom">
               <img
-                src="/images/gojo (1).jpg"
+                src="/images/chairul.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -60,7 +65,7 @@ export default function Profile() {
               data-aos-easing="linear"
               data-aos-duration="1000"
             >
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+              <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 text-center">
                 {skills.map((skill, index) => (
                   <div key={index} className="w-full">
                     <div className="bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">

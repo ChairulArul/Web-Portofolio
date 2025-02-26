@@ -21,11 +21,11 @@ const PortfolioItem = ({ imgSrc, title, description }) => {
 
 export default function Portfolio() {
   // State untuk menyimpan daftar portfolio
-  const [portfolioItems, setPortfolioItems] = useState([
+  const [portfolioItems] = useState([
     {
       imgSrc: "/images/port1.png",
       title: "Web Blog",
-      description: "Lorem Dolore ex nulla laborum est laboris",
+      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit",
     },
     {
       imgSrc: "/images/port2.png",
