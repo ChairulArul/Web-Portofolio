@@ -31,7 +31,7 @@ export default function Header({
           data-aos-duration="500"
           data-aos-delay="0"
         >
-          <a href="">
+          <a href="https://www.github.com/ChairulArul">
             <BsGithub />
           </a>
           <a href="https://www.linkedin.com/in/chairul-arul-241288274/">
