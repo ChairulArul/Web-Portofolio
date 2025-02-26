@@ -78,14 +78,14 @@ export default function Portfolio() {
               Recent Work
             </h4>
             <div className="text-gradient font-primary max-w-[700px] mx-auto text-[24px]">
-              This dummy text
+              This dummy project
             </div>
           </div>
           <div className="order-1 lg:order-2 text-center">
             <h2 className="text-gradient font-primary max-w-[700px] mx-auto text-[50px]">
               08
             </h2>
-            <div>Completed Projects (just example)</div>
+            <div>Completed Projects</div>
           </div>
         </div>
         <div

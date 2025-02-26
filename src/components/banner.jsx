@@ -30,10 +30,11 @@ export default function Banner() {
           </div>
         </div>
         <div className="max-w-[550px] mx-auto mt-5">
-          Hallo, saya Chairul, saya seorang mahasiswa Teknologi informasi yang
-          sedang menempuh pendidikan di Universitas Mikroskil. Saya memiliki
-          minat dalam bidang teknologi dan pengembangan web. Dan ini adalah
-          website porfolio saya. Mari berdiskusi bersama
+          I am a passionate web and mobile developer dedicated to building
+          innovative and impactful digital solutions. With a strong focus on
+          full-stack web development using React.js & Express.js, as well as
+          exploring mobile development with Flutter, I am always eager to dive
+          into new technologies and enhance my skills.😁
         </div>
       </div>
     </div>
